@@ -1,0 +1,13 @@
+Q=ncore.pro
+W=mvm.karrierportal.hu/allas/ugyfelszolgalati-munkatars-2946
+E=github.com
+R=overthewire.org/wargames/bandit
+T=linuxjourney.com/
+Z=linuxconfig.org/bash-scripting-tutorial-for-beginners
+U=learnshell.org/en
+I=szabilinux.hu/ufi/4_5.html
+O=192.168.0.18:32400/web
+P=gmail.com
+A=https://addons.mozilla.org/en-US/firefox/addon/adblocker-ultimate/
+S=https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=homepage-collection-featured
+D=https://addons.mozilla.org/en-US/firefox/addon/minimalist-tokyo-night/
