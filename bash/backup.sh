@@ -2,7 +2,7 @@
 
 USER=$(whoami)
 IN=/home/$USER
-OUT=/tmp/${USER}_home_$(date +%Y-%m-%d_%H%M%S).tar.gz
+OUT=$HOME/Backups/${USER}_home_$(date +%Y-%m-%d_%H%M%S).tar.gz
 
 ## total_files function report the total number
 function total_files {
@@ -15,12 +15,12 @@ function total_directories {
 
 tar -czf $OUT $IN 2> /dev/null
 
-echo -n "Files to be included:"
+echo -n "Files: "
 total_files $IN
-echo -n "Directories to be included:"
+echo -n "Directories: "
 total_directories $IN
 
 echo "Backup of $IN completed!"
 
-echo "Details about the output backup file:"
+echo "Details about the backup file:"
 ls -l $OUT

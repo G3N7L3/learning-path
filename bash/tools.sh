@@ -12,8 +12,6 @@ cat <<MENU
 3. GitHub
 4. Plex
 5. Update
-6. Exit
-7. Firefox - links
 ============
 ============
 MENU
@@ -24,12 +22,9 @@ clear
 neofetch
 }
 
-
 function 2 {
 . backup.sh
 }
-
-
 
 function 3 {
 firefox https://github.com/G3N7L3
@@ -43,15 +38,6 @@ function 5 {
 . backup.sh
 sudo pacman -Syyu
 }
-
-function 6 {
-exit
-}
-
-function 7 {
-firefox  $A $S $D $Q $W $E $R $T $Z $U $I $O $P
-}
-
 
 menu
 read OP
