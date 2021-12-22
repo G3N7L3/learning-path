@@ -1,7 +1,5 @@
 #!/bin/bash
 
-. link.txt
-
 function menu {
 cat <<MENU
 ============
